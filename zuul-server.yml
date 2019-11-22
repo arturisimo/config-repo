@@ -1,0 +1,24 @@
+server:
+  port: 7000
+zuul:
+  ignoredServices: '*'
+  routes:
+      servicio-vuelos:
+        path: /vuelos/**
+        serviceId: servicio-vuelos
+      servicio-reservas:
+        path: /reservas/**
+        serviceId: servicio-reservas
+      servicio-hoteles:
+        path: /hoteles/**
+        serviceId: servicio-hoteles
+      servicio-personas:
+        path: /personas/**
+        serviceId: servicio-personas
+      servicio-cliente-personas:
+        path: /cliente-personas/**
+        serviceId: servicio-cliente-personas
+eureka:                  
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka 
