@@ -4,6 +4,6 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka
-client:
+service:
   url:
-    inventada: http://servicio-personas/personas/lista      
+    persona: http://servicio-personas/personas/lista      
