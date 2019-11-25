@@ -6,3 +6,7 @@ eureka:
   client:
     service-url:
       defaultZone: http://10.2.4.15:8761/eureka
+  instance:      
+    ip-address: 10.2.4.14 #ip ms
+    prefer-ip-addres: true
+    instance-id: 10.2.4.14:8001
