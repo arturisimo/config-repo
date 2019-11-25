@@ -6,23 +6,23 @@ zuul:
       servicio-vuelos:
         path: /vuelos/**
         serviceId: servicio-vuelos
-        url: http://localhost:8001/vuelos
+        #url: http://localhost:8001/vuelos
       servicio-reservas:
         path: /reservas/**
         serviceId: servicio-reservas
-        url: http://localhost:8000/reservas
+        #url: http://localhost:8000/reservas
       servicio-hoteles:
         path: /hoteles/**
         serviceId: servicio-hoteles
-        url: http://localhost:8002/hoteles
+        #url: http://localhost:8002/hoteles
       servicio-personas:
         path: /personas/**
         serviceId: servicio-personas
-        url: http://localhost:8003/personas
+        #url: http://localhost:8003/personas
       servicio-cliente-personas:
         path: /cliente-personas/**
         serviceId: servicio-cliente-personas
-        url: http://localhost:8004/cliente-personas
+        #url: http://localhost:8004/cliente-personas
 eureka:                  
   client:
     serviceUrl:
