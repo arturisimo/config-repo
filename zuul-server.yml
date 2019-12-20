@@ -23,6 +23,15 @@ zuul:
         path: /cliente-personas/**
         serviceId: servicio-cliente-personas
         #url: http://localhost:8004/cliente-personas
+      microservicio-clientes:
+        path: /clientes/**
+        serviceId: microservicio-clientes
+      microservicio-policia:
+        path: /policia/**
+        serviceId: microservicio-policia
+      microservicio-sensores:
+        path: /sensores/**
+        serviceId: microservicio-sensores          
 eureka:                  
   client:
     serviceUrl:
