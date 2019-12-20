@@ -39,5 +39,5 @@ eureka:
 info:
   app:
     name: Zuul server
-    description: punto de entrada único
-    version: 0.0.1-SNAPSHOT      
+    description: punto de entrada unico
+    version: 0.0.1-SNAPSHOT
