@@ -1,0 +1,13 @@
+server:
+  port: 9000
+  servlet:
+    context-path: /clientes
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+info:
+  app:
+    name: Microservicio clientes
+    description: App de clientes
+    version: 0.0.1-SNAPSHOT             
