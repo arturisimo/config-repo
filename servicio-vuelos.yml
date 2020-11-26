@@ -15,7 +15,3 @@ info:
     name: Microservicio vuelos
     description: Vuelos
     version: 0.0.1-SNAPSHOT
-management:
-  endpoints:
-    web:
-      expose: "*"
