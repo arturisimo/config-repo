@@ -5,7 +5,7 @@ server:
 eureka:
   client:
     service-url:
-      defaultZone: http://servidor-eureka/eureka
+      defaultZone: http://servidor-eureka:8761/eureka
 info:
   app:
     name: Microservicio policias
