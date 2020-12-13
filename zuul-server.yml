@@ -38,7 +38,7 @@ eureka:
     registerWithEureka: false
     fetchRegistry: true
     serviceUrl:
-      defaultZone: http://servidor-eureka/eureka
+      defaultZone: http://servidor-eureka:8761/eureka
 info:
   app:
     name: Zuul server
