@@ -7,6 +7,12 @@ eureka:
     service-url:
       #defaultZone: http://servidor-eureka:8761/eureka
       defaultZone: http://localhost:8761/eureka
+kafka:
+     topic: alertas
+     producer:
+        bootstrap-servers: localhost:9092
+        key-serializer: org.apache.kafka.common.serialization.StringSerializer
+        value-serializer: org.apache.kafka.common.serialization.StringSerializer      
 info:
   app:
     name: Microservicio sensores
