@@ -35,8 +35,8 @@ zuul:
         serviceId: microservicio-sensores          
 eureka:                  
   client:
-    registerWithEureka: false
-    fetchRegistry: true
+    register-with-eureka: false
+    fetch-registry: true
     serviceUrl:
       #defaultZone: http://servidor-eureka:8761/eureka
       defaultZone: http://discovery:8761/eureka
