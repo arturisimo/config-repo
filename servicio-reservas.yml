@@ -7,10 +7,11 @@ eureka:
     service-url:
       #defaultZone: http://localhost:8761/eureka
       defaultZone: ${EUREKA_URL:http://servidor-eureka:8761}/eureka
-#  instance:    
+  instance:    
 #    ip-address: 10.2.4.15 #ip ms
 #    prefer-ip-addres: true
 #    instance-id: 10.2.4.15:8000
+    hostname: reserva
 info:
   app:
     name: Microservicio reservas
