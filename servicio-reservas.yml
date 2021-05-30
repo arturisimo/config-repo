@@ -2,12 +2,18 @@ server:
   port: 8000
   servlet:
     context-path: /reservas
-eureka:
-  client:
-    service-url:
+#eureka:
+#  client:
+#    service-url:
       #defaultZone: http://localhost:8761/eureka
-      defaultZone: ${EUREKA_URL:http://servidor-eureka:8761}/eureka
+#      defaultZone: ${EUREKA_URL:http://servidor-eureka:8761}/eureka
 #  instance:    
 #    ip-address: 10.2.4.15 #ip ms
 #    prefer-ip-addres: true
-#    instance-id: 10.2.4.15:8000      
+#    instance-id: 10.2.4.15:8000
+info:
+  app:
+    name: Microservicio reservas
+    description: Reservas
+    version: 0.0.1-SNAPSHOT
+
