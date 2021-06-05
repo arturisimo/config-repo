@@ -2,9 +2,9 @@ server:
   port: 7000
   ssl:
     enabled: true
-    key-store: classpath:zull-keystore.jks
+    key-store: classpath:zuul-keystore.jks
     key-store-type: JSK
-    key-store-alias: zull-proxy
+    key-store-alias: zuul-proxy
     key-store-password: zuulpass  
 zuul:
   ignored-headers: Access-Control-Allow-Credentials, Access-Control-Allow-Origin
