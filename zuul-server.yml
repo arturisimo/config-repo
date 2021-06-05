@@ -3,7 +3,7 @@ server:
   ssl:
     enabled: true
     key-store: classpath:zuul-keystore.jks
-    key-store-type: JSK
+    key-store-type: JKS
     key-store-alias: zuul-proxy
     key-store-password: zuulpass  
 zuul:
